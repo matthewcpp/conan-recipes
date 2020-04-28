@@ -10,6 +10,7 @@ class EzaudioConan(ConanFile):
     topics = ("wasapi", "coreaudio")
     no_copy_source = True
     git_revision = "d743d34423f33f4ac8f9c62e72af00b02c63827e"
+    build_policy = "always"
 
     def source(self):
         self.run("git clone https://github.com/matthewcpp/ezaudio.git ")
