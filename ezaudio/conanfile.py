@@ -3,13 +3,13 @@ from conans import ConanFile, CMake, tools
 
 class EzaudioConan(ConanFile):
     name = "ezaudio"
-    version = "d743d34"
+    version = "0e982f4"
     license = "MIT"
     url = "https://github.com/matthewcpp/ezaudio"
     description = "https://github.com/matthewcpp/ezaudio"
     topics = ("wasapi", "coreaudio")
     no_copy_source = True
-    git_revision = "d743d34423f33f4ac8f9c62e72af00b02c63827e"
+    git_revision = "0e982f46a664dca4d1471621dd3bcfb7da3a8c57"
     build_policy = "always"
 
     def source(self):

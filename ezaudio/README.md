@@ -17,6 +17,6 @@ Update the `git_revision` field with the full commit hash of the version.
 ### Pushing the package
 ```
 conan create . matthewcpp/master
-conan upload ezaudio/d743d34@matthewcpp/master -r=matthewcpp
+conan upload ezaudio/0e982f4@matthewcpp/master -r=matthewcpp
 ```
 Note: Use API key for the password
